@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --prColor: crimson;
+    --secColor: #5D1200;
+    --thirdColor: #FFFFFF;
+    --blkColor: #000000;
+    --whtColor: #FFFFFF;
+    --bgColor: rgb(255, 255, 187);
+    --bgColorLight: rgb(203, 253, 203);
+    --txtColor: #FFFFFF;
+    --headFontSize: 48px;
+    --textFontSize: 24px;
+    --navFontSize: 22px;
+    --fontSize: 20px;
+    --mainFont: 'Roboto', sans-serif;
+    --secFont: 'EB Garamond', serif;
+    --borderRadius: 10px;
+    --shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 15px;
+}
+
+.pageHeading {
+    text-align: center;
+    font-weight: 800;
+    color: var(--secColor);
+    margin: 10px 0 10px 0;
+    font-size: var(--headFontSize);
+}
+
+.pageHeading span {
+    color: var(--prColor);
+    font-style: italic;
+    font-family: var(--secFont);
+    font-size: calc(var(--headFontSize) + 6px);
+}
+
+.sectionHeading {
+    font-weight: 800;
+    color: var(--secColor);
+    margin: 0px 0 20px 0;
+    font-size: 36px;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bgColorLight);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--prColor);
+    border-radius: 5px;
+}

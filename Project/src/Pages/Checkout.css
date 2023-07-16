@@ -1,0 +1,80 @@
+.checkoutPageContainer {
+    padding: 15px 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.rightSection {
+    flex: 3 2;
+}
+
+.leftSection {
+    flex: 2 3;
+}
+
+.checkoutDetailContainer {
+    padding: 20px;
+    background-color: var(--bgColorLight);
+    border-radius: var(--borderRadius);
+    color: var(--blkColor);
+}
+
+.checkoutDetails {
+    margin: 0px 0px 150px 0px;
+}
+
+.checkoutDetailContainer h5 {
+    margin: 10px 0px 5px 0px;
+    font-size: var(--textFontSize);
+}
+
+.checkoutDetailContainer h1 {
+    font-size: 58px;
+    font-weight: 600;
+    margin: 0px;
+    position: relative;
+    color: var(--prColor);
+}
+
+.checkoutDetailContainer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.paymentReceiverLogoIcons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+}
+
+.paymentReceiverLogoIcons h6 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+    justify-self: start;
+}
+
+
+.paymentReceiverLogoIcons .fintechLogo {
+    height: 25px;
+    margin: 0 0 0 10px;
+}
+
+.payNowBtn {
+    width: 100%;
+    padding: 10px 25px;
+    color: var(--secColor);
+    font-size: var(--navFontSize);
+    font-weight: 500;
+    border: none;
+    border-radius: var(--borderRadius);
+    background-color: var(--prColor);
+    outline: none;
+}
+
+.payNowBtn:active {
+    background-color: var(--secColor);
+    color: var(--thirdColor);
+}

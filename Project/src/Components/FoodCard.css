@@ -1,0 +1,68 @@
+.foodCard {
+    width: 275px;
+    height: 375px;
+    margin: 20px;
+    border-radius: var(--borderRadius);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in 0s;
+    background-color: #ffffff;
+}
+
+.foodCard:hover {
+    transform: scale(1.02);
+}
+
+.foodImgContainer {
+    width: inherit;
+    height: calc(100% - 40%);
+}
+
+.foodImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--borderRadius) var(--borderRadius) 0px 0px;
+}
+
+.foodDataContainer {
+    text-align: center;
+    padding: 15px 10px;
+    color: var(--secColor);
+    height: calc(100% - 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardFoodName {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.cardFoodPrice {
+    font-size: 24px;
+    color: var(--secColor);
+}
+
+.cardBtnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardBtn {
+    margin: 0px 2px;
+    padding: 5px;
+    width: 100%;
+    color: var(--txtColor);
+    font-size: var(--fontSize);
+    font-weight: 500;
+    background-color: var(--prColor);
+    border: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+}
+
+.cardBtn:active {
+    transition: all 0.1s ease-in 0s;
+    background-color: var(--secColor);
+}

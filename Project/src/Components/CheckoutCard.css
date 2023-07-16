@@ -1,0 +1,33 @@
+.checkoutCardContainer {
+    width: 100%;
+    border-radius: var(--borderRadius);
+    padding: 10px 15px;
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.checkoutFoodImage {
+    width: 75px;
+}
+
+.checkoutFood {
+    font-size: var(--textFontSize);
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+}
+
+.checkoutFoodIndex {
+    width: 50px;
+}
+
+.checkoutFoodName {
+    width: 170px;
+}
+
+.checkoutFoodQty {
+    width: 120px;
+}

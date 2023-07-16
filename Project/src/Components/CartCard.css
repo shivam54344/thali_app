@@ -1,0 +1,76 @@
+.cartContainer {
+    margin: 10px;
+    padding: 10px 40px;
+    background-color: var(--bgColorLight);
+    border-radius: var(--borderRadius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cartFoodImage {
+    width: 75px;
+}
+
+.cartFoodName,
+.cartFoodPrice {
+    font-size: var(--textFontSize);
+    font-weight: 500;
+    margin: 0;
+    width: 170px;
+    text-align: center;
+}
+
+.cartFoodPrice {
+    width: 70px;
+}
+
+.cartFoodItemQty {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--secColor);
+    width: 75px;
+    font-size: var(--textFontSize);
+    text-align: center;
+}
+
+.cartQtyBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-weight: 800;
+    background-color: var(--prColor);
+    color: var(--secColor);
+}
+
+.cartQtyBtn:active {
+    transition: all 0.2s ease 0s;
+    background-color: var(--secColor);
+    color: var(--txtColor);
+}
+
+.cartFoodTotalPrice {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--secColor);
+    width: 100px;
+    font-size: var(--textFontSize);
+    text-align: center;
+}
+
+.cartFoodCrossBtn {
+    margin: 10px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.cartFoodCrossBtn:active {
+    transition: all 0.2s ease 0s;
+    transform: scale(1.2);
+}
